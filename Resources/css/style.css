@@ -9,6 +9,7 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
+  margin-right: 12px;
   position: inline-block;
   border-bottom: 1px solid black;
 }
