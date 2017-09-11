@@ -17,6 +17,7 @@ header {
   width: 100%;
   z-index: 1;
   background-color: white;
+  border-bottom: 1px solid black;
 }
 
 .logo {
@@ -24,8 +25,6 @@ header {
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  position: inline-block;
-  border-bottom: 1px solid black;
 }
 
 .logo img {
@@ -40,7 +39,6 @@ header {
 
 header nav {
   padding-right: 40px;
-  align-items: flex-end;
 }
 
 nav span {
