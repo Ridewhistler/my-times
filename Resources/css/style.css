@@ -6,7 +6,7 @@
   font-size: 14px;
   font-weight: bold;
 }
-header span {
+.header span {
   display: flex;
   align-items: flex-end;
 }
