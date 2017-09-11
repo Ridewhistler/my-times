@@ -1,3 +1,9 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
 .logo {
   display: flex;
   align-items: center;
@@ -5,9 +11,6 @@
   padding-left: 30px;
   position: inline-block;
   border-bottom: 1px solid black;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
 }
 
 .logo span {
