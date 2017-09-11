@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 header {
   display: flex;
   position: fixed;
@@ -6,6 +10,9 @@ header {
   font-size: 14px;
   font-weight: bold;
   height: 80px;
+  width: 100%;
+  z-index: 1;
+  background-color: white;
 }
 
 .logo {
