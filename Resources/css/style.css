@@ -1,12 +1,13 @@
-.header {
+.logo {
   display: flex;
   position: inline-block;
   border-bottom: 1px solid black;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+
 }
-.header span {
+nav span {
   display: flex;
   align-items: flex-end;
 }
