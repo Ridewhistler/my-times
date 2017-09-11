@@ -2,6 +2,10 @@ html {
   display: block;
 }
 
+body {
+  margin: 0;
+}
+
 header {
   display: flex;
   position: fixed;
