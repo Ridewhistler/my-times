@@ -1,7 +1,10 @@
 header {
+  display: flex;
+  align-items: center;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  height: 80px;
 }
 
 .logo {
@@ -23,7 +26,12 @@ header {
   color: MediumAquamarine;
 }
 
+header nav {
+  padding-right: 40px;
+}
+
 nav span {
-  display: flex;
   align-items: flex-end;
+  display: inline-block;
+  padding: 20px 10px;
 }
