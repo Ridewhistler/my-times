@@ -4,7 +4,14 @@ html {
 
 body {
   margin: 0;
+}
+
+body a {
   text-decoration: underline;
+}
+
+body div {
+  border: 1px solid black;
 }
 
 a {
@@ -51,4 +58,23 @@ header nav {
 nav span {
   display: inline-block;
   padding: 20px 10px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
