@@ -62,9 +62,14 @@ nav span {
 
 .content {
   display: flex;
-  flex-direction: column;
+  width: 1232px;
   margin: 0 auto 78px auto;
   padding-top: 116px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
 }
 
 .column.large {
